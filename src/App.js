@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { AnimatedSwitch } from 'react-router-transition';
 import MainLayout from './components/layout/MainLayout/MainLayout';
-import styles from './styles/switchWrapper';
+import styles from './styles/switchWrapper.scss';
 import Home from './components/views/Home/Home';
 import Trips from './components/views/Trips/TripsContainer';
 // TODO - import other views
